@@ -25,7 +25,7 @@ SECRET_KEY = 'jpvkg_8kt#zb$#3l$1&7s*5exuw&yo##$akea@m!q01k+feiel'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ngstox.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -63,7 +63,8 @@ CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
     '127.0.0.1:8080',
-    'localhost:8080'
+    'localhost:8080',
+    'ngstox.herokuapp.com'
 )
 
 ROOT_URLCONF = 'sneakrs.urls'
