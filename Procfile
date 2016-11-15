@@ -1,1 +1,1 @@
-web: gunicorn deadstox.wsgi --log-file -
+web: gunicorn sneakrs.wsgi --log-file -
