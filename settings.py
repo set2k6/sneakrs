@@ -25,7 +25,7 @@ SECRET_KEY = 'jpvkg_8kt#zb$#3l$1&7s*5exuw&yo##$akea@m!q01k+feiel'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ngstox.herokuapp.com']
 
 
 # Application definition
